@@ -16,6 +16,26 @@
 // let number = 404;
 // console.log(number);
 // console.log(typeof number);
+
+// let num1 = 50;
+// let num2 = 50;
+// let num3 = num1 + num2;
+// console.log(num3);
+// console.log(typeof num3);
+
+// let sum1 = 20;
+// let sum2 = parseInt("30");
+// let sum3 = sum1 + sum2;
+// console.log(sum3);
+// console.log(typeof sum3);
+
+// let price1 = 0.1;
+// let price2 = 0.2;
+// let price3 = price1 + price2;
+// console.log(price3.toFixed(3));
+// console.log(typeof price3.toFixed(3));
+// console.log(parseFloat(price3.toFixed(5)));
+// console.log(typeof parseFloat(price3.toFixed(5)));
 // !JavaScript Number Type Variable Ends Here! //
 
 // !JavaScript Boolean Type Variable Starts Here! //
