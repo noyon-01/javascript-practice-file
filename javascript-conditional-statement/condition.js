@@ -82,6 +82,27 @@
 //   console.log("You are not ready for merrage");
 // }
 
+// !JavaScript Logical and (&&), Logical or (||) and Logical not (!) Conditonal Statement! //
+// let salary = 10000;
+// let BCS = false;
+// if (salary >= 30000 && BCS === true) {
+//   console.log("You are selected for merrage");
+// } else if (salary >= 30000 || BCS === true) {
+//   console.log("You are not selected for merrage");
+// } else {
+//   console.log("You are a bad boy and your feature life is Dark");
+// }
+
+// const age = 18;
+// const money = true;
+// if (age >= 18 && money === true) {
+//   console.log("You can entry this Park and buy any product");
+// } else if (age >= 18 || money === true) {
+//   console.log("You can just entry this park");
+// } else {
+//   console.log("Dor Sala Gora Jai Gom Ja");
+// }
+
 // !JavaScript Ternary Operator! //
 // let price = 100;
 // let payAmount = 90;
@@ -90,17 +111,17 @@
 // const age = 25;
 // age <= 30 ? console.log("You are a young man") : console.log ("You are a younger man");
 
-// !JavaScript Logical && Ternary Operator! //
+// !JavaScript Logical and (&&) Ternary Operator! //
 // const age = 15;
 // const money = true;
 // age >= 18 && money == true ? console.log ("You can entry this car") : console.log ("You can not entry this car");
 
-// !JavaScript Logical || Ternary Operator! //
+// !JavaScript Logical or (||) Ternary Operator! //
 // const age = 15;
 // const money = true;
 // age >= 18 || money == true ? console.log ("You can entry this car") : console.log ("You can not entry this car");
 
-// !JavaScript Logical ! Ternary Operator! //
+// !JavaScript Logical not (!) Ternary Operator! //
 // const money = true;
 // !money == true ? console.log ("You can entry this car") : console.log ("You can not entry this car");
 
