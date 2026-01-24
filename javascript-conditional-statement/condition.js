@@ -82,7 +82,27 @@
 //   console.log("You are not ready for merrage");
 // }
 
-// !JavaScript Ternary Conditional Statement! //
+// !JavaScript Ternary Operator! //
 // let price = 100;
 // let payAmount = 90;
 // payAmount >= price ? console.log("You have eat Briyani") : console.log("Yon can not eat now");
+
+// const age = 25;
+// age <= 30 ? console.log("You are a young man") : console.log ("You are a younger man");
+
+// !JavaScript Logical && Ternary Operator! //
+// const age = 15;
+// const money = true;
+// age >= 18 && money == true ? console.log ("You can entry this car") : console.log ("You can not entry this car");
+
+// !JavaScript Logical || Ternary Operator! //
+// const age = 15;
+// const money = true;
+// age >= 18 || money == true ? console.log ("You can entry this car") : console.log ("You can not entry this car");
+
+// !JavaScript Logical ! Ternary Operator! //
+// const money = true;
+// !money == true ? console.log ("You can entry this car") : console.log ("You can not entry this car");
+
+// const money = true;
+// !!money == false ? console.log ("You can entry this car") : console.log ("You can not entry this car");
