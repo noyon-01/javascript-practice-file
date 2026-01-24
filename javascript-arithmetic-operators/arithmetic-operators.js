@@ -7,7 +7,6 @@
 // let price = 100;
 // let newPrice = (price += 50);
 // console.log(newPrice);
-// !JavaScript Addition Operation Ends Here! //
 
 // !JavaScript Subtraction Operation Starts Here! //
 // let x = 50;
@@ -18,7 +17,6 @@
 // let price = 1000;
 // let discountPrice = price -= 130;
 // console.log(discountPrice);
-// !JavaScript Subtraction Operation Ends Here! //
 
 // !JavaScript Multiplication Operation Starts Here! //
 // let x = 5;
@@ -29,7 +27,6 @@
 // let price = 10;
 // let newPrice = price *= 3;
 // console.log(newPrice);
-// !JavaScript Multiplication Operation Ends Here! //
 
 // !JavaScript Division Operation Starts Here! //
 // let x = 36;
@@ -40,7 +37,6 @@
 // let price = 49;
 // let newPrice = price /= 7;
 // console.log(newPrice);
-// !JavaScript Division Operation Ends Here! //
 
 // !JavaScript Remainder Operation Starts Here! //
 // let a = 23;
@@ -51,4 +47,3 @@
 // let price = 45;
 // let discountPrice = price %= 7;
 // console.log(discountPrice);
-// !JavaScript Remainder Operation Ends Here! //

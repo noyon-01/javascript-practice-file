@@ -6,7 +6,6 @@
 // let string = "Hello World!";
 // console.log(string);
 // console.log(typeof string);
-// !JavaScript String Type Variable Ends Here! //
 
 // !JavaScript Number Type Variable Starts Here! //
 // var penPrice = 10;
@@ -36,7 +35,6 @@
 // console.log(typeof price3.toFixed(3));
 // console.log(parseFloat(price3.toFixed(5)));
 // console.log(typeof parseFloat(price3.toFixed(5)));
-// !JavaScript Number Type Variable Ends Here! //
 
 // !JavaScript Boolean Type Variable Starts Here! //
 // var passed = true;
@@ -46,4 +44,3 @@
 // let workDone = false;
 // console.log(workDone);
 // console.log(typeof workDone);
-// !JavaScript Boolean Type Variable Ends Here! //
