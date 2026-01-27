@@ -52,6 +52,43 @@
 // }
 
 // !JavaScript While Loop Starts Here! //
+// let x = 1;
+// while (x < 10) {
+//   console.log(x);
+//   x++;
+// }
+
+// let i = 1;
+// while (i < 10) {
+//   console.log(i);
+//   i = i + 2;
+// }
+
+// let num = 11;
+// while (num <= 30) {
+//   if (num % 2 !== 0) {
+//     console.log(num);
+//   }
+//   num++;
+// }
+
+// let num = 11;
+// while (num <= 30) {
+//   if (num % 2 === 0) {
+//     console.log(num);
+//   }
+//   num++;
+// }
+
+let num = 11;
+let sum = 0;
+while (num <= 20) {
+  console.log(num);
+  sum = sum + num;
+  console.log("sum of num is :", sum);
+  num++;
+}
+console.log("Total sum of num is :", sum);
 
 // !JavaScript Do While Loop Starts Here! //
 
