@@ -80,17 +80,37 @@
 //   num++;
 // }
 
-let num = 11;
-let sum = 0;
-while (num <= 20) {
-  console.log(num);
-  sum = sum + num;
-  console.log("sum of num is :", sum);
-  num++;
-}
-console.log("Total sum of num is :", sum);
+// let num = 11;
+// let sum = 0;
+// while (num <= 20) {
+//   console.log(num);
+//   sum = sum + num;
+//   console.log("sum of num is :", sum);
+//   num++;
+// }
+// console.log("Total sum of num is :", sum);
 
 // !JavaScript Do While Loop Starts Here! //
+// let i = 1;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= 10);
+
+// !JavaScript While Loop and Do While Loop Differents Show in the Below! //
+let numbers = 10;
+do {
+  console.log(numbers);
+  numbers++;
+} while (numbers <= 5);
+
+// !There is Do While Loop Output 10 but While Loop don't output 10 This is the Differents! //
+
+let x = 10;
+while (x <= 5) {
+  console.log(x);
+  x++;
+}
 
 // !JavaScript Break of Loop Starts Here! //
 
