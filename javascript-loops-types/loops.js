@@ -98,20 +98,61 @@
 // } while (i <= 10);
 
 // !JavaScript While Loop and Do While Loop Differents Show in the Below! //
-let numbers = 10;
-do {
-  console.log(numbers);
-  numbers++;
-} while (numbers <= 5);
+// let numbers = 10;
+// do {
+//   console.log(numbers);
+//   numbers++;
+// } while (numbers <= 5);
 
 // !There is Do While Loop Output 10 but While Loop don't output 10 This is the Differents! //
 
-let x = 10;
-while (x <= 5) {
-  console.log(x);
-  x++;
-}
+// let x = 10;
+// while (x <= 5) {
+//   console.log(x);
+//   x++;
+// }
 
 // !JavaScript Break of Loop Starts Here! //
+// for (let x = 1; x < 10; x++) {
+//   if (x === 6) {
+//     break;
+//   }
+//   console.log(x);
+// }
+
+// let i = 1;
+// while (i < 10) {
+//   if (i === 6) {
+//     break;
+//   }
+//   console.log(i);
+//   i++;
+// }
+
+// let names = ["noyon", "rohim", "sakib", "korim"];
+
+// for (let i = 0; i < names.length; i++) {
+//   if (names[2] === "sakib") {
+//     console.log("sakib is founder");
+//     break;
+//   } else {
+//     console.log(names[i]);
+//   }
+// }
 
 // !JavaScript Continue of Loop Starts Here! //
+// for (let num = 1; num < 10; num++) {
+//   if (num === 5) {
+//     continue;
+//   }
+//   console.log(num);
+// }
+
+// let i = 1;
+// while (i < 10) {
+//   i++;
+//   if (i === 3) {
+//     continue;
+//   }
+//   console.log(i);
+// }
