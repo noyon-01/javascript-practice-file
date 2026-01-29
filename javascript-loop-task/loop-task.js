@@ -192,10 +192,13 @@ Display sum of all the odd numbers from 81 to 131.
 */
 
 // let sum = 0;
-// for (let x = 81; x <= 131; x++) {
+// let x = 81;
+
+// while (x <= 131) {
 //   if (x % 2 !== 0) {
 //     sum = sum + x;
 //   }
+//   x++;
 // }
 // console.log(sum);
 
@@ -204,11 +207,14 @@ Subtask-2:
 Display sum of all the even numbers from 206 to 311.
 */
 
+// let x = 206;
 // let sum = 0;
-// for (let x = 206; x <= 311; x++) {
+
+// while (x <= 311) {
 //   if (x % 2 !== 1) {
 //     sum = sum + x;
 //   }
+//   x++;
 // }
 // console.log(sum);
 
@@ -217,17 +223,20 @@ Display sum of all the even numbers from 206 to 311.
 As Ersa is learning now, she wants to explore more and more. Tell Ersa to generate a multiplication table for number 5
 */
 
-// for (let i = 1; i <= 50; i++) {
+// let i = 1;
+// while (i <= 50) {
 //   if (i % 5 === 0) {
 //     console.log(i);
 //   }
+//   i++;
 // }
 
 // !JavaScript While Loop Task - 05 Start Here! //
 /***
 Implement a countdown timer that counts down from 21 to 15.
 */
-
-// for (let i = 21; i >= 15; i--) {
+// let i = 21;
+// while (i >= 15) {
 //   console.log(i);
+//   i--;
 // }
