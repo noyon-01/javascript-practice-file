@@ -146,3 +146,88 @@ Implement a countdown timer that counts down from 81 to 65.
 // for (let i = 81; i >= 65; i--) {
 //   console.log(i);
 // }
+
+// !JavaScript While Loop Task - 01 Start Here! //
+/***
+ "I will invest at least 6 hrs every single day for next 60 days!" this message 60 times. So display this.
+*/
+
+// let time = 1;
+// while (time <= 60) {
+//   console.log(time, ":", "I will invest at least 6 hrs every single day for next 60 days!",);
+//   time++;
+// }
+
+// !JavaScript While Loop Task - 02 Start Here! //
+/***
+Subtask-1:
+Find all the odd numbers from 61 to 100.
+*/
+
+// let i = 61;
+// while (i <= 100) {
+//   if (i % 2 === 1) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+/***
+Subtask-2:
+Find all the even numbers from 78 to 98.
+*/
+
+// let i = 78;
+// while (i <= 98) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+//   i++;
+// }
+
+// !JavaScript While Loop Task - 03 Start Here! //
+/***
+Subtask-1:
+Display sum of all the odd numbers from 81 to 131.
+*/
+
+// let sum = 0;
+// for (let x = 81; x <= 131; x++) {
+//   if (x % 2 !== 0) {
+//     sum = sum + x;
+//   }
+// }
+// console.log(sum);
+
+/***
+Subtask-2:
+Display sum of all the even numbers from 206 to 311.
+*/
+
+// let sum = 0;
+// for (let x = 206; x <= 311; x++) {
+//   if (x % 2 !== 1) {
+//     sum = sum + x;
+//   }
+// }
+// console.log(sum);
+
+// !JavaScript While Loop Task - 04 Start Here! //
+/***
+As Ersa is learning now, she wants to explore more and more. Tell Ersa to generate a multiplication table for number 5
+*/
+
+// for (let i = 1; i <= 50; i++) {
+//   if (i % 5 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// !JavaScript While Loop Task - 05 Start Here! //
+/***
+Implement a countdown timer that counts down from 21 to 15.
+*/
+
+// for (let i = 21; i >= 15; i--) {
+//   console.log(i);
+// }
