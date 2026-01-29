@@ -42,3 +42,28 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 //   console.log(i);
 // }
 
+// !JavaScript Loop Continue Task - 01 Start Here! //
+/* 
+Write a loop to print even numbers from 1 to 40. Use continue to skip odd numbers.
+*/
+
+// for (let number = 1; number <= 40; number++) {
+//   if (number % 2 === 1) {
+//     continue;
+//   } else {
+//     console.log(number);
+//   }
+// }
+
+// !JavaScript Loop Continue Task - 02 Start Here! //
+/*
+display odd number from 55 to 85 and skip the numbers divisible by 5.
+*/
+
+// for (let i = 55; i <= 85; i++) {
+//   if (i % 2 === 0 || i % 5 === 0) {
+//     continue;
+//   } else {
+//     console.log(i);
+//   }
+// }
