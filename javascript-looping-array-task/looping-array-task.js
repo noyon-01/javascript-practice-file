@@ -65,6 +65,14 @@
  * 'TomTimTinTik'
  */
 
+// let numbers = ["Tom", "Tim", "Tin", "Tik"];
+// let results = "";
+
+// for (const number of numbers) {
+//   results = results.concat(number);
+// }
+// console.log(results);
+
 // !JavaScript Array Looping Task - 04! //
 /**
  * Task 4 (Hard)
@@ -74,3 +82,8 @@
  * Output:
  * 'person working hard a am I'
  */
+
+const statement = "I am a hard working person";
+
+const revStatement = statement.split(" ").reverse().join(" ");
+console.log(revStatement);
