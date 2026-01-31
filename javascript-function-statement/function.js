@@ -1,0 +1,1 @@
+// !JavaScript Function Syntex Starts Here! //
