@@ -59,8 +59,32 @@
  * Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
  */
 
+// function count_zero(binaryString) {
+//   let count = 0;
+//   for (const binary of binaryString) {
+//     if (binary === "0") {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// const binaryString = "10011000100101110";
+// const result = count_zero(binaryString);
+// console.log(result);
+
 // !JavaScript Function Practice Task - 05 Starts Here! //
 /**
  * Task-5
  * Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return Even. If odd return Odd
  */
+
+// function odd_even(number) {
+//   if (number % 2 === 0) {
+//     return "Even";
+//   } else {
+//     return "Odd";
+//   }
+// }
+// const number = 99 - 2 - 2 - 1;
+// const result = odd_even(number);
+// console.log(result);
