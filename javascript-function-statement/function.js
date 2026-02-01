@@ -33,3 +33,67 @@
 //   console.log(division);
 // }
 // division(125, 5);
+
+// !JavaScript Funtion Return Starts Here! //
+// function sumOfNumbers(num1, num2) {
+//   const sum = num1 + num2;
+//   return sum;
+// }
+// const result = sumOfNumbers(20, 30);
+// console.log(result);
+
+// function myName(name1, name2, name3) {
+//   const names = name1 + " " + name2 + " " + name3;
+//   return names;
+// }
+// const names = myName("Shahadat", "Hosen", "Noyon");
+// console.log(names);
+
+// function multiplication(x, y) {
+//   const multi = x * y;
+//   return multi;
+// }
+// const multiNums = multiplication(4, 6);
+// console.log(multiNums);
+
+// !JavaScript Funtion of Array, Conditional and Loop Return Starts Here! //
+// function number(numbers) {
+//   for (const number of numbers) {
+//     console.log(number);
+//   }
+// }
+// number([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+// function evenNumber(numbers) {
+//   for (const number of numbers) {
+//     if (number % 2 === 0) {
+//       console.log(number);
+//     }
+//   }
+// }
+// const result = evenNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+
+// function sumOfEvenNumber(numbers) {
+//   let sum = 0;
+//   for (const number of numbers) {
+//     if (number % 2 === 0) {
+//       sum = sum + number;
+//     }
+//   }
+//   return sum;
+// }
+// const result = sumOfEvenNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+// console.log(result);
+
+// function sumOfOddNumber(numbers) {
+//   let sum = 0;
+//   for (const number of numbers) {
+//     if (number % 2 === 1) {
+//       console.log(number);
+//       sum = sum + number;
+//     }
+//   }
+//   return sum;
+// }
+// const result = sumOfOddNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]);
+// console.log(result);
