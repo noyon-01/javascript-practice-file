@@ -201,4 +201,21 @@
 // console.log(result);
 
 // !JavaScript Simple Problem Solving - 09! //
+// function totalShopingPrice(shirtQuantity, pantQuantity, showQuantity) {
+//   const shirtPrice = 500;
+//   const pantPrice = 800;
+//   const showPrice = 1200;
+
+//   const totalShirtPrice = shirtPrice * shirtQuantity;
+//   const totalPantPrice = pantPrice * pantQuantity;
+//   const totalShowPrice = showPrice * showQuantity;
+
+//   const totalProductPrice = totalShirtPrice + totalPantPrice + totalShowPrice;
+//   return totalProductPrice;
+// }
+// const result = totalShopingPrice(1, 1, 1);
+// console.log(result);
+
 // !JavaScript Simple Problem Solving - 10! //
+// !JavaScript Simple Problem Solving - 11! //
+// !JavaScript Simple Problem Solving - 12! //
