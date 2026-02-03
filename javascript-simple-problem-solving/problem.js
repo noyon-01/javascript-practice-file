@@ -97,3 +97,108 @@
 // const numbers = [1, 2, 3, 4, 5, 2, 3, 6, 7, 7, 8, 1, 4, 9];
 // const result = removeDuplicatiNumber(numbers);
 // console.log(result);
+
+// !JavaScript Simple Problem Solving - 06! //
+// *Find The Largest Number in a Array
+// function maxNumber(numbers) {
+//   let max = numbers[0];
+//   for (const number of numbers) {
+//     if (number > max) {
+//       max = number;
+//     }
+//   }
+//   return max;
+// }
+// const numbers = [99, 145, 36, 83, 32, 188, 22, 65, 27];
+// const result = maxNumber(numbers);
+// console.log(result);
+
+// *Other Simple Solution in Below
+// const max = Math.max(21, 2, 13, 4, 5, 6, 7, 8, 9);
+// console.log(max);
+
+// *Find The Smallest Number in a Array
+// function minNumber(numbers) {
+//   let min = numbers[0];
+//   for (const number of numbers) {
+//     if (number < min) {
+//       min = number;
+//     }
+//   }
+//   return min;
+// }
+// const numbers = [19, 145, 36, 83, 12, 188, 22, 65, 27];
+// const result = minNumber(numbers);
+// console.log(result);
+
+// *Other Simple Solution in Below
+// const min = Math.min(23, 16, 85, 86, 34, 15, 45);
+// console.log(min);
+
+// !JavaScript Simple Problem Solving - 07! //
+// function woodRequirments(chairQuantity, tableQuantity, badQuantity) {
+//   let chairWood = 500;
+//   let tableWood = 1000;
+//   let badWood = 4000;
+
+//   const chairPrice = chairWood * chairQuantity;
+//   const tablePrice = tableWood * tableQuantity;
+//   const badPrice = badWood * badQuantity;
+
+//   const totalPrice = chairPrice + tablePrice + badPrice;
+//   return totalPrice;
+// }
+// const result = woodRequirments(2, 1, 1);
+// console.log(result);
+
+// !JavaScript Simple Problem Solving - 08! //
+// *Find Cheap Phone of an Array
+// const phones = [20000, 35000, 12500, 100000, 30000];
+// function cheapestPhone(phones) {
+//   let cheapPhone = phones[0];
+//   for (const phone of phones) {
+//     if (phone < cheapPhone) {
+//       cheapPhone = phone;
+//     }
+//   }
+//   return cheapPhone;
+// }
+// const result = cheapestPhone(phones);
+// console.log(result);
+
+// const phones = [20000, 35000, 12500, 100000, 30000];
+// function expensivePhone(phones) {
+//   let expensivePhone = phones[0];
+//   for (const phone of phones) {
+//     if (phone > expensivePhone) {
+//       expensivePhone = phone;
+//     }
+//   }
+//   return expensivePhone;
+// }
+// const result = expensivePhone(phones);
+// console.log(result);
+
+// *Find Cheap Phone of an Object
+// const phones = [
+//   { name: "samsung", price: 40000 },
+//   { name: "samsung", price: 35000 },
+//   { name: "samsung", price: 50000 },
+//   { name: "samsung", price: 15000 },
+//   { name: "samsung", price: 20000 },
+// ];
+
+// function cheapestPhone(phones) {
+//   let cheapPhone = phones[0].price;
+//   for (const phone of phones) {
+//     if (phone.price < cheapPhone) {
+//       cheapPhone = phone.price;
+//     }
+//   }
+//   return cheapPhone;
+// }
+// const result = cheapestPhone(phones);
+// console.log(result);
+
+// !JavaScript Simple Problem Solving - 09! //
+// !JavaScript Simple Problem Solving - 10! //
