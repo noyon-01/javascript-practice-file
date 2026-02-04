@@ -217,5 +217,106 @@
 // console.log(result);
 
 // !JavaScript Simple Problem Solving - 10! //
+// *If you buy 100 ticket you pay now 100 taka per ticker.
+// *If you buy 101 - 200 ticket you pay now 90 taka per ticker.
+// *If you buy above 200 ticket you pay now 80 taka per ticker.
+// function discountPrice(quantity) {
+//   const first100Price = 10;
+//   const second100Price = 9;
+//   const above200Price = 7;
+
+//   if (quantity <= 100) {
+//     const totalPrice1 = first100Price * quantity;
+//     console.log(totalPrice1);
+//     return totalPrice1;
+//   } else if (quantity <= 200) {
+//     const first100Total = 100 * first100Price;
+//     const remainingTotal = quantity - 100;
+//     const remainingTotalPrice = remainingTotal * second100Price;
+//     const totalPrice2 = first100Total + remainingTotalPrice;
+//     console.log(totalPrice2);
+//     return totalPrice2;
+//   } else {
+//     const first100Total = 100 * first100Price;
+//     const second100Total = 100 * second100Price;
+//     const remainingTotal = quantity - 200;
+//     const remainingTotalPrice = remainingTotal * above200Price;
+//     const totalPrice3 = first100Total + second100Total + remainingTotalPrice;
+//     console.log(totalPrice3);
+//     return totalPrice3;
+//   }
+// }
+// const result = discountPrice(300);
+// console.log(result);
+
 // !JavaScript Simple Problem Solving - 11! //
+// function addition(x, y) {
+//   const add = x + y;
+//   return add;
+// }
+
+// function subtraction(x, y) {
+//   const sub = x - y;
+//   return sub;
+// }
+
+// function multiply(x, y) {
+//   const mult = x * y;
+//   return mult;
+// }
+
+// function divide(x, y) {
+//   const div = x / y;
+//   return div;
+// }
+
+// function calculate(x, y, z) {
+//   if (z === "add") {
+//     return addition(x, y);
+//   } else if (z === "sub") {
+//     return subtraction(x, y);
+//   } else if (z === "mult") {
+//     return multiply(x, y);
+//   } else {
+//     return divide(x, y);
+//   }
+// }
+
+// const resultAdd = calculate(10, 5, "add");
+// console.log("Total of add:", resultAdd);
+// const resultSub = calculate(10, 5, "sub");
+// console.log("Total of sub:", resultSub);
+// const resultMult = calculate(10, 5, "mult");
+// console.log("Total of mult:", resultMult);
+// const resultDiv = calculate(10, 5, "div");
+// console.log("Total of div:", resultDiv);
+
 // !JavaScript Simple Problem Solving - 12! //
+// *Checking Data Validation
+// function addition(number1, number2) {
+//   if (typeof number1 !== "number") {
+//     return "number 1 is not a valid number";
+//   } else if (typeof number2 !== "number") {
+//     return "number 2 is not a valid number";
+//   } else {
+//     const add = number1 + number2;
+//     return add;
+//   }
+// }
+// const resultAdd = addition("9", 3);
+// console.log("Total of additon is:", resultAdd);
+
+// function fullName(first, medal, last) {
+//   if (typeof first !== "string") {
+//     return "first is not a valid name";
+//   } else if (typeof medal !== "string") {
+//     return "second is not a valid name";
+//   } else if (typeof last !== "string") {
+//     return "last is not a valid name";
+//   } else {
+//     const fullName = first + " " + medal + " " + last;
+//     return fullName;
+//   }
+// }
+// const result = fullName("Shahadat", "Hosen", 1);
+// console.log(result);
