@@ -152,6 +152,26 @@
  * Write a JavaScript function named calculateElectronicsBudget that takes in the number of laptop, tablets, and mobile and returns the total money required.
  */
 
+// function calculateElectronicsBudget(
+//   laptopQuantity,
+//   tabletQuantity,
+//   mobileQuantity,
+// ) {
+//   const laptopPrice = 35000;
+//   const tabletPrice = 15000;
+//   const mobilePrice = 20000;
+
+//   const totalLaptopPrice = laptopPrice * laptopQuantity;
+//   const totalTabletPrice = tabletPrice * tabletQuantity;
+//   const totalMobilePrice = mobilePrice * mobileQuantity;
+
+//   const totalProductsPrice =
+//     totalLaptopPrice + totalTabletPrice + totalMobilePrice;
+//   return totalProductsPrice;
+// }
+// const result = calculateElectronicsBudget(2, 2, 5);
+// console.log(result);
+
 // !JavaScript Simple Problem Practice Task - 09! //
 /**
  * Task-9:
