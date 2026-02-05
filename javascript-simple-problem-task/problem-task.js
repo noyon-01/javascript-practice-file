@@ -188,6 +188,28 @@
     ];
  */
 
+// const phones = [
+//   { model: "PhoneA", brand: "Iphone", price: 95000 },
+//   { model: "PhoneB", brand: "Samsung", price: 40000 },
+//   { model: "PhoneC", brand: "Oppo", price: 26000 },
+//   { model: "PhoneD", brand: "Nokia", price: 35000 },
+//   { model: "PhoneE", brand: "Iphone", price: 105000 },
+//   { model: "PhoneF", brand: "HTC", price: 48000 },
+// ];
+
+// function findAveragePhonePrice(phones) {
+//   let totalPhonePrice = 0;
+//   let phonesLength = phones.length;
+//   for (const phone of phones) {
+//     totalPhonePrice = totalPhonePrice + phone.price;
+//   }
+//   const averagePhonesPrice = totalPhonePrice / phonesLength;
+//   const roundAveragePrice = Math.round(averagePhonesPrice);
+//   return roundAveragePrice;
+// }
+// const result = findAveragePhonePrice(phones);
+// console.log(result);
+
 // !JavaScript Simple Problem Practice Task - 10! //
 /**
  * Task-10: (Hard)
