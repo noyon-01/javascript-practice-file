@@ -141,3 +141,55 @@
 
 // delete person.isMarrid;
 // console.log(person);
+
+// !JavaScript Nested Object Starts Here! //
+// const persons = {
+//   id: 1,
+//   name: "Doclas Hablu",
+//   age: 30,
+//   profession: "Programmer",
+//   subject: "Economics",
+//   act: function () {
+//     console.log("I am Hablu a Programmer.");
+//   },
+//   cars: {
+//     brand: "BMW",
+//     price: 10000000,
+//     id: 101,
+//     made: 2025,
+//   },
+//   dream: {
+//     dream_01: "Australia",
+//     dream_02: "China",
+//     dream_03: "Japan",
+//   },
+//   like: ["apple", "Lemon", "Orange", "WaterMelon"]
+// };
+
+// console.log(persons);
+// persons.act()
+
+// !JavaScript Object of Array Search for Match Starts Here! //
+// const products = [
+//   { id: 1, name: "xiaomi phone", price: 20000 },
+//   { id: 2, name: "apple iphone", price: 20000 },
+//   { id: 3, name: "samsung Phone", price: 20000 },
+//   { id: 4, name: "oppo phone", price: 20000 },
+//   { id: 5, name: "xiaomi Laptop", price: 20000 },
+//   { id: 6, name: "macboc laptop", price: 20000 },
+//   { id: 7, name: "Nokia Phone", price: 20000 },
+//   { id: 8, name: "samponi phone", price: 20000 },
+//   { id: 9, name: "hp laptop", price: 20000 },
+// ];
+
+// function matchProduct(products, search) {
+//   const phones = [];
+//   for (const product of products) {
+//     if (product.name.toLowerCase().includes(search.toLowerCase())) {
+//       phones.push(product);
+//     }
+//   }
+//   return phones;
+// }
+// const result = matchProduct(products, "phone");
+// console.log(result);
