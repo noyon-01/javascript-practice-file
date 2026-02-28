@@ -99,3 +99,29 @@
 // console.log(result);
 
 // !JavaScript Arrow Function Starts Here! //
+// !Normal Function vs Arrow Function
+//  ?Normal Function
+// function greet(name) {
+//   return "Hello " + name;
+// }
+// console.log(greet("Noyon"));
+
+// ?Arrow Function
+// const greet = (name) => {
+//   return "Hello " + name;
+// };
+// console.log(greet("Noyon"));
+
+// ?Arrow Function
+const square = num => {
+  return num * num;
+};
+console.log(square(5));
+
+// ?Arrow Function
+const squares = num => num * num;
+console.log(squares(5));
+
+// ?Arrow Function
+const add = (a, b) => a + b;
+console.log(add(3, 4));
